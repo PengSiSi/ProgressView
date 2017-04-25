@@ -7,7 +7,7 @@ s.homepage         = 'https://github.com/PengSiSi/ProgressView'
 s.license               = 'MIT'
 s.author                = { 'PengSi' => '1299625033@qq.com' }
 s.source           = { :git => 'https://github.com/PengSiSi/ProgressView.git',:tag => s.version.to_s }
-s.source_files     = 'ProgressView/**/*.{h,m}'
+s.source_files     = 'ProgressView/*.{h,m}'
 s.frameworks       = 'UIKit', 'Foundation'
 s.requires_arc     = true
 s.ios.deployment_target = '7.0'
